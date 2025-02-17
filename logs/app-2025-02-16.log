@@ -1,0 +1,254 @@
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:19:52.032Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:19:52.048Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:21:00.319Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:21:00.334Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:21:07.169Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:21:07.184Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:24:36.463Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:24:36.478Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:25:57.726Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:25:57.746Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:26:12.873Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:26:12.888Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:26:32.355Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:26:32.374Z"}
+{"level":"info","message":"user 67b1bd96051426134d11f4fd registered","timestamp":"2025-02-16T10:27:34.317Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:29:45.226Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:29:45.249Z"}
+{"level":"info","message":"admin 67b1be4c6926587a328dd54e registered","timestamp":"2025-02-16T10:30:36.618Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:32:03.618Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:32:03.641Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:33:16.453Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:33:16.469Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:33:22.949Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:33:22.966Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e logged in","timestamp":"2025-02-16T10:33:32.659Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:35:32.491Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:35:32.508Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e logged in","timestamp":"2025-02-16T10:35:43.211Z"}
+{"date":"Sun Feb 16 2025 12:36:41 GMT+0200 (Eastern European Standard Time)","error":{},"level":"error","message":"unhandledRejection: Cannot read properties of undefined (reading 'replace')\nTypeError: Cannot read properties of undefined (reading 'replace')\n    at authentication (/home/thanos/programming/backend/projects/Blog-app-system/middlewares/auth.js:5:43)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at /home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:346:12)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:280:10)\n    at Function.handle (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:175:3)\n    at router (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:47:12)","os":{"loadavg":[0.63,0.83,0.98],"uptime":115741.41},"process":{"argv":["/usr/local/node/bin/node","/home/thanos/programming/backend/projects/Blog-app-system/server.js"],"cwd":"/home/thanos/programming/backend/projects/Blog-app-system","execPath":"/usr/local/node/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18292260,"external":20633759,"heapTotal":31129600,"heapUsed":28315032,"rss":91746304},"pid":665444,"uid":1000,"version":"v23.7.0"},"rejection":true,"stack":"TypeError: Cannot read properties of undefined (reading 'replace')\n    at authentication (/home/thanos/programming/backend/projects/Blog-app-system/middlewares/auth.js:5:43)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at /home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:346:12)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:280:10)\n    at Function.handle (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:175:3)\n    at router (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:47:12)","timestamp":"2025-02-16T10:36:41.077Z","trace":[{"column":43,"file":"/home/thanos/programming/backend/projects/Blog-app-system/middlewares/auth.js","function":"authentication","line":5,"method":null,"native":false},{"column":5,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js","function":"next","line":149,"method":null,"native":false},{"column":3,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js","function":"Route.dispatch","line":119,"method":"dispatch","native":false},{"column":5,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js","function":null,"line":284,"method":null,"native":false},{"column":12,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js","function":"router","line":47,"method":null,"native":false}]}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:38:51.182Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:38:51.198Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:39:14.655Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:39:14.673Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:39:45.526Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:39:45.544Z"}
+{"date":"Sun Feb 16 2025 12:39:49 GMT+0200 (Eastern European Standard Time)","error":{},"level":"error","message":"unhandledRejection: Cannot read properties of undefined (reading 'replace')\nTypeError: Cannot read properties of undefined (reading 'replace')\n    at authentication (/home/thanos/programming/backend/projects/Blog-app-system/middlewares/auth.js:5:43)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at /home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:346:12)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:280:10)\n    at Function.handle (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:175:3)\n    at router (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:47:12)","os":{"loadavg":[1.39,1.12,1.06],"uptime":115929.8},"process":{"argv":["/usr/local/node/bin/node","/home/thanos/programming/backend/projects/Blog-app-system/server.js"],"cwd":"/home/thanos/programming/backend/projects/Blog-app-system","execPath":"/usr/local/node/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18273462,"external":20614961,"heapTotal":62586880,"heapUsed":27520696,"rss":106160128},"pid":668185,"uid":1000,"version":"v23.7.0"},"rejection":true,"stack":"TypeError: Cannot read properties of undefined (reading 'replace')\n    at authentication (/home/thanos/programming/backend/projects/Blog-app-system/middlewares/auth.js:5:43)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at /home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:346:12)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:280:10)\n    at Function.handle (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:175:3)\n    at router (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:47:12)","timestamp":"2025-02-16T10:39:49.467Z","trace":[{"column":43,"file":"/home/thanos/programming/backend/projects/Blog-app-system/middlewares/auth.js","function":"authentication","line":5,"method":null,"native":false},{"column":5,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js","function":"next","line":149,"method":null,"native":false},{"column":3,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js","function":"Route.dispatch","line":119,"method":"dispatch","native":false},{"column":5,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js","function":null,"line":284,"method":null,"native":false},{"column":12,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js","function":"router","line":47,"method":null,"native":false}]}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:40:26.966Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:40:26.984Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:41:05.111Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:41:05.126Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:41:43.834Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:41:43.849Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:42:20.401Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:42:20.418Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:44:13.099Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:44:13.116Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:46:27.577Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:46:27.595Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:47:14.262Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:47:14.279Z"}
+{"date":"Sun Feb 16 2025 12:47:17 GMT+0200 (Eastern European Standard Time)","error":{},"level":"error","message":"unhandledRejection: logger is not a function\nTypeError: logger is not a function\n    at exports.logout (/home/thanos/programming/backend/projects/Blog-app-system/controllers/user.js:232:5)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:149:13)\n    at authentication (/home/thanos/programming/backend/projects/Blog-app-system/middlewares/auth.js:18:3)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at /home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:346:12)","os":{"loadavg":[1.1,0.97,1],"uptime":116377.81},"process":{"argv":["/usr/local/node/bin/node","/home/thanos/programming/backend/projects/Blog-app-system/server.js"],"cwd":"/home/thanos/programming/backend/projects/Blog-app-system","execPath":"/usr/local/node/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18273462,"external":20614961,"heapTotal":62324736,"heapUsed":27684816,"rss":107077632},"pid":673097,"uid":1000,"version":"v23.7.0"},"rejection":true,"stack":"TypeError: logger is not a function\n    at exports.logout (/home/thanos/programming/backend/projects/Blog-app-system/controllers/user.js:232:5)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:149:13)\n    at authentication (/home/thanos/programming/backend/projects/Blog-app-system/middlewares/auth.js:18:3)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at /home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:346:12)","timestamp":"2025-02-16T10:47:17.483Z","trace":[{"column":5,"file":"/home/thanos/programming/backend/projects/Blog-app-system/controllers/user.js","function":"exports.logout","line":232,"method":"logout","native":false},{"column":5,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js","function":"next","line":149,"method":null,"native":false},{"column":3,"file":"/home/thanos/programming/backend/projects/Blog-app-system/middlewares/auth.js","function":"authentication","line":18,"method":null,"native":false},{"column":5,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js","function":"next","line":149,"method":null,"native":false},{"column":3,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js","function":"Route.dispatch","line":119,"method":"dispatch","native":false},{"column":5,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js","function":null,"line":284,"method":null,"native":false},{"column":12,"file":"/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js","function":"Function.process_params","line":346,"method":"process_params","native":false}]}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:47:56.597Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:47:56.619Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:48:15.976Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:48:15.994Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:48:18.398Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:48:18.415Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:48:27.977Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:48:27.994Z"}
+{"level":"error","message":"Error : req.user.save is not a function","stack":"TypeError: req.user.save is not a function\n    at exports.logout (/home/thanos/programming/backend/projects/Blog-app-system/controllers/user.js:219:20)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:149:13)\n    at authentication (/home/thanos/programming/backend/projects/Blog-app-system/middlewares/auth.js:18:3)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at /home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:346:12)","timestamp":"2025-02-16T10:48:32.935Z"}
+{"level":"error","message":"Error : req.user.save is not a function","stack":"TypeError: req.user.save is not a function\n    at exports.logout (/home/thanos/programming/backend/projects/Blog-app-system/controllers/user.js:219:20)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:149:13)\n    at authentication (/home/thanos/programming/backend/projects/Blog-app-system/middlewares/auth.js:18:3)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at /home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:346:12)","timestamp":"2025-02-16T10:48:41.702Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:54:33.603Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:54:33.619Z"}
+{"level":"error","message":"Error : req.user.save is not a function","stack":"TypeError: req.user.save is not a function\n    at exports.logout (/home/thanos/programming/backend/projects/Blog-app-system/controllers/user.js:222:20)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:149:13)\n    at authentication (/home/thanos/programming/backend/projects/Blog-app-system/middlewares/auth.js:18:3)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/layer.js:95:5)\n    at /home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/thanos/programming/backend/projects/Blog-app-system/node_modules/express/lib/router/index.js:346:12)","timestamp":"2025-02-16T10:54:36.921Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:57:35.906Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:57:35.921Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T10:57:54.161Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T10:57:54.178Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:00:00.561Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:00:00.577Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:00:40.050Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:00:40.067Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e logged out","timestamp":"2025-02-16T11:00:42.889Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e logged in","timestamp":"2025-02-16T11:01:56.713Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:03:10.170Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:03:10.186Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e in his profile","timestamp":"2025-02-16T11:03:17.830Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e update his profile","timestamp":"2025-02-16T11:13:29.411Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:13:59.383Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:13:59.400Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:14:35.121Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:14:35.137Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:14:59.086Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:14:59.102Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:26:02.045Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:26:02.063Z"}
+{"level":"info","message":"User 67b1be4c6926587a328dd54e updated profile: {\"fName\":\"moammen\"}","timestamp":"2025-02-16T11:26:38.841Z"}
+{"level":"info","message":"User 67b1be4c6926587a328dd54e updated profile: {\"fName\":\"thanos\"}","timestamp":"2025-02-16T11:27:05.871Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:30:39.733Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:30:39.751Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:30:44.529Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:30:44.546Z"}
+{"level":"info","message":"User 67b1be4c6926587a328dd54e updated profile: {\"email\":\"thanos@gmail.com\"}","timestamp":"2025-02-16T11:31:02.012Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:31:33.641Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:31:33.661Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:31:52.232Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:31:52.253Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:32:15.978Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:32:15.994Z"}
+{"level":"info","message":"user 67b1ccd27ea5dc9147728a1d registered","timestamp":"2025-02-16T11:32:34.413Z"}
+{"level":"info","message":"user 67b1ccd27ea5dc9147728a1d logged in","timestamp":"2025-02-16T11:33:15.766Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:36:52.790Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:36:52.805Z"}
+{"level":"info","message":"user 67b1ccd27ea5dc9147728a1d logged out","timestamp":"2025-02-16T11:37:01.770Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:49:10.378Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:49:10.395Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:49:44.692Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:49:44.707Z"}
+{"level":"info","message":"user 67b1ccd27ea5dc9147728a1d logged in","timestamp":"2025-02-16T11:51:41.802Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:55:15.213Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:55:15.230Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:55:26.199Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:55:26.216Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:55:43.655Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:55:43.671Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:56:47.391Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:56:47.411Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:57:16.655Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:57:16.677Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:57:24.620Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:57:24.637Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:58:53.852Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:58:53.868Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T11:59:10.975Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T11:59:10.991Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:02:39.045Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:02:39.061Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:03:01.647Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:03:01.662Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:04:23.598Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:04:23.614Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:04:32.733Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:04:32.748Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:04:41.709Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:04:41.727Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:04:50.390Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:04:50.407Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e logged in","timestamp":"2025-02-16T12:05:22.024Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:06:13.931Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:06:13.947Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:07:28.137Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:07:28.155Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:07:31.695Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:07:31.714Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:08:11.784Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:08:11.806Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:08:32.974Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:08:32.991Z"}
+{"level":"info","message":"User 67b1bd96051426134d11f4fd deleted their account.","timestamp":"2025-02-16T12:08:35.926Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:15:03.309Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:15:03.326Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:15:45.887Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:15:45.904Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:16:22.616Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:16:22.631Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:20:05.267Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:20:05.284Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e change his password to Memo_$123456","timestamp":"2025-02-16T12:22:40.585Z"}
+{"level":"info","message":"admin 67b1be4c6926587a328dd54e deleted change role of user 67b1ccd27ea5dc9147728a1d","timestamp":"2025-02-16T12:24:19.837Z"}
+{"level":"info","message":"admin 67b1be4c6926587a328dd54e deleted change role of user 67b1ccd27ea5dc9147728a1d","timestamp":"2025-02-16T12:24:25.209Z"}
+{"level":"info","message":"admin 67b1be4c6926587a328dd54e deleted change role of user 67b1ccd27ea5dc9147728a1d","timestamp":"2025-02-16T12:25:28.091Z"}
+{"level":"info","message":"admin 67b1be4c6926587a328dd54e deleted change role of user 67b1ccd27ea5dc9147728a1d","timestamp":"2025-02-16T12:25:45.840Z"}
+{"level":"info","message":"User 67b1be4c6926587a328dd54e changed their profile picture.","timestamp":"2025-02-16T12:27:54.205Z"}
+{"level":"info","message":"User 67b1be4c6926587a328dd54e changed their profile picture.","timestamp":"2025-02-16T12:28:21.998Z"}
+{"level":"info","message":"User 67b1be4c6926587a328dd54e changed their profile picture.","timestamp":"2025-02-16T12:34:54.673Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:36:57.680Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:36:57.696Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:37:03.347Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:37:03.363Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:37:10.352Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:37:10.372Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:37:13.908Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:37:13.928Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:42:30.110Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:42:30.126Z"}
+{"level":"info","message":"User 67b1be4c6926587a328dd54e changed their profile picture.","timestamp":"2025-02-16T12:42:34.338Z"}
+{"level":"info","message":"User 67b1be4c6926587a328dd54e changed their profile picture.","timestamp":"2025-02-16T12:43:22.576Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:44:18.462Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:44:18.481Z"}
+{"level":"info","message":"User 67b1be4c6926587a328dd54e changed their profile picture.","timestamp":"2025-02-16T12:44:34.938Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:45:28.567Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:45:28.586Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:45:38.944Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:45:38.961Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:46:06.761Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:46:06.779Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:46:14.886Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:46:14.905Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:46:18.398Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:46:18.416Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:46:23.931Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:46:23.949Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:48:08.300Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:48:08.315Z"}
+{"level":"info","message":"User 67b1be4c6926587a328dd54e changed their profile picture.","timestamp":"2025-02-16T12:48:14.242Z"}
+{"level":"info","message":"User 67b1be4c6926587a328dd54e changed their profile picture.","timestamp":"2025-02-16T12:48:26.167Z"}
+{"level":"info","message":"User 67b1be4c6926587a328dd54e changed their profile picture.","timestamp":"2025-02-16T12:48:32.210Z"}
+{"level":"info","message":"User 67b1be4c6926587a328dd54e changed their profile picture.","timestamp":"2025-02-16T12:48:51.382Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:49:10.004Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:49:10.021Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:49:50.460Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:49:50.478Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:50:31.541Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:50:31.556Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:52:05.237Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:52:05.256Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e deleted his Profile Picture","timestamp":"2025-02-16T12:54:19.327Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:55:20.324Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:55:20.340Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e deleted his Profile Picture","timestamp":"2025-02-16T12:55:27.873Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:55:43.322Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:55:43.337Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e deleted his Profile Picture","timestamp":"2025-02-16T12:55:45.531Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e deleted his Profile Picture","timestamp":"2025-02-16T12:56:18.192Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:56:56.195Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:56:56.210Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:57:04.400Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:57:04.416Z"}
+{"level":"info","message":"User 67b1be4c6926587a328dd54e changed their profile picture.","timestamp":"2025-02-16T12:58:16.943Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:58:35.608Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:58:35.624Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e deleted his Profile Picture","timestamp":"2025-02-16T12:58:41.104Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T12:58:55.648Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T12:58:55.664Z"}
+{"level":"info","message":"User 67b1be4c6926587a328dd54e changed their profile picture.","timestamp":"2025-02-16T12:59:01.783Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e deleted his Profile Picture","timestamp":"2025-02-16T12:59:08.744Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T13:01:15.049Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T13:01:15.065Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T13:03:29.017Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T13:03:29.035Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T13:08:18.974Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T13:08:18.991Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e logged in","timestamp":"2025-02-16T13:09:13.081Z"}
+{"level":"info","message":"user 67b1ccd27ea5dc9147728a1d logged in","timestamp":"2025-02-16T13:11:37.884Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T13:13:44.703Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T13:13:44.719Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e change his password to Memo_$123456","timestamp":"2025-02-16T13:16:52.663Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e change his password to Memo_$123456","timestamp":"2025-02-16T13:17:15.672Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T13:18:04.705Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T13:18:04.722Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T13:18:29.850Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T13:18:29.867Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T13:19:19.911Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T13:19:19.929Z"}
+{"level":"info","message":"user 67b1be4c6926587a328dd54e change his password to Memo_$123456","timestamp":"2025-02-16T13:19:23.282Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T13:21:18.673Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T13:21:18.690Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T13:24:15.195Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T13:24:15.211Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T13:24:27.476Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T13:24:27.493Z"}
+{"level":"info","message":"Server IS running","timestamp":"2025-02-16T13:25:39.816Z"}
+{"level":"info","message":"DataBase Is Connected","timestamp":"2025-02-16T13:25:39.833Z"}
+{"level":"info","message":"Admin 67b1be4c6926587a328dd54e added new user 67b1e757a2baae9578d9d091","timestamp":"2025-02-16T13:25:43.220Z"}
