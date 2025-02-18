@@ -17,6 +17,9 @@ const {
   deleteUser,
   follow,
   adminSearch,
+  getFollowsCount,
+  getFollowers,
+  getFollowings,
 } = require("../controllers/user");
 
 const { authentication, authorization } = require("../middlewares/auth");
@@ -96,5 +99,11 @@ router.post(
   validator(userSchema),
   addUsers
 );
+
+router.get("/get/follows/count", authentication, getFollowsCount);
+
+router.get("/get/followers/:id", authentication, getFollowers);
+
+router.get("/get/followings/:id", authentication, getFollowings);
 
 module.exports = router;

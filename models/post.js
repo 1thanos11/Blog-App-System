@@ -4,7 +4,7 @@ const postSchema = new mongoose.Schema(
   {
     content: {
       type: String,
-      required: true,
+      trim: true,
     },
 
     images: {
@@ -30,7 +30,7 @@ const postSchema = new mongoose.Schema(
 postSchema.virtual("comments", {
   ref: "Comment",
   localField: "_id",
-  foreignField: "owner",
+  foreignField: "postID",
 });
 
 // To make a virtual with likes :
@@ -38,7 +38,7 @@ postSchema.virtual("comments", {
 postSchema.virtual("likes", {
   ref: "Like",
   localField: "_id",
-  foreignField: "PostID",
+  foreignField: "postID",
 });
 
 const Post = mongoose.model("Post", postSchema);

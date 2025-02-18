@@ -41,9 +41,8 @@ const userSchema = joi.object({
 });
 
 const postSchema = joi.object({
-  content: joi.string().max(1000).required().messages({
+  content: joi.string().max(1000).messages({
     "string.max": "the content can't increase than 1000 character",
-    "any.required": "the content is required",
   }),
 });
 

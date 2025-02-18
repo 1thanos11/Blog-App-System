@@ -76,7 +76,7 @@ const upload = multer({
 // upload for Posts :
 
 const uploadPosts = multer({
-  storage: storage,
+  storage: postsStorage,
   limits: { fileSize: 5 * 1024 * 1024 },
   fileFilter: function (req, file, cb) {
     checkFileTypes(file, cb);
@@ -86,7 +86,7 @@ const uploadPosts = multer({
 // upload for Comments :
 
 const uploadComments = multer({
-  storage: storage,
+  storage: commentsStorage,
   limits: { fileSize: 5 * 1024 * 1024 },
   fileFilter: function (req, file, cb) {
     checkFileTypes(file, cb);

@@ -653,12 +653,12 @@ exports.follow = async (req, res) => {
     const followingId = req.params.id;
 
     if (!followingId) {
-      throw new Error("No users found");
+      return res.status(400).send({ message: "No user ID provided" });
     }
 
     const following = await User.findById(followingId).session(session);
     if (!following) {
-      throw new Error("No users found");
+      return res.status(404).send({ message: "User not found" });
     }
 
     const existingFollow = await Follows.findOne(
@@ -718,7 +718,67 @@ exports.follow = async (req, res) => {
   } catch (error) {
     await session.abortTransaction();
     session.endSession();
-    console.error("Follow error:", error);
+    res.status(500).send({ error: error.message || "Internal server error" });
+  }
+};
+
+// To Get follows count :
+
+exports.getFollowsCount = async (req, res) => {
+  try {
+    const id = req.params.id; // id for user
+
+    const followers = req.user.followersCount;
+    const followeings = req.user.followingsCount;
+
+    return res
+      .status(200)
+      .send({ followers: followers, followeings: followeings });
+  } catch (error) {
+    res.status(500).send({ error: error.message || "Internal server error" });
+  }
+};
+
+// To get Followers profiles :
+
+exports.getFollowers = async (req, res) => {
+  try {
+    const id = req.params.id;
+
+    const user = await User.findById(id);
+    if (!user) {
+      return res.status(404).send({ message: "the user not found" });
+    }
+
+    const followers = await Follows.find({ following: id }).populate({
+      path: "follower",
+      select: "fName lName profilePicture",
+    });
+
+    res.status(200).send({ followers });
+  } catch (error) {
+    res.status(500).send({ error: error.message || "Internal server error" });
+  }
+};
+
+// To get followings profiles :
+
+exports.getFollowings = async (req, res) => {
+  try {
+    const id = req.params.id;
+
+    const user = await User.findById(id);
+    if (!user) {
+      return res.status(404).send({ message: "the user not found" });
+    }
+
+    const followings = await Follows.find({ follower: id }).populate({
+      path: "following",
+      select: "fName lName profilePicture",
+    });
+
+    res.status(200).send({ followings });
+  } catch (error) {
     res.status(500).send({ error: error.message || "Internal server error" });
   }
 };
